@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estyle/cadastro.css" />
+    <script src="index.js"></script>
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <main>
+      <div class="cadastro">
+        <h1>Cadastro de Clientes CarFix</h1>
+        <h2>Cadastrar-se:</h2>
+        <form>
+          <label>Digite seu Nome Completo:</label>
+          <input type="text" class="nome" id="nome" />
+          <br />
+          <br />
+          <label>Digite sua Data de Nascimento: </label>
+          <input type="date" class="data" id="data" />
+          <br />
+          <br />
+          <label>Digite seu Email:</label>
+          <input type="email" class="email" id="email" /> <br />
+          <br />
+          <label>Digite seu Telefone:</label>
+          <input type="tel" class="tel" id="tel" />
+        </form>
+        <button class="cadas" onclick="onClickCadastroFeito()">
+          Cadastrar
+        </button>
+      </div>
+    </main>
+  </body>
+</html>

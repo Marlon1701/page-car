@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+}
+.cadastro {
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 45px;
+  text-decoration: underline;
+}
+h2 {
+  font-size: 30px;
+}
+label {
+  font-size: 20px;
+}
+.nome {
+  width: 25vw;
+  height: 25px;
+  border-radius: 13px;
+  border: 0;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.data {
+  margin-left: 20px;
+  width: 12vw;
+  height: 25px;
+  border-radius: 13px;
+  border: 0;
+  font-size: 17px;
+}
+.email {
+  width: 25vw;
+  height: 25px;
+  border-radius: 13px;
+  border: 0;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.tel {
+  width: 10vw;
+  height: 25px;
+  border-radius: 13px;
+  border: 0;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.cadas {
+  font-size: 16px;
+  width: 13vw;
+  height: 28px;
+  border-radius: 13px;
+  border: 0;
+  cursor: pointer;
+  background-color: #39aee1;
+  color: #fff;
+  font-weight: bolder;
+}
+
+@media (max-width: 500px) {
+  .nome,
+  .email,
+  .tel {
+    display: flex;
+    flex-direction: column;
+    width: 35vh;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .data {
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    margin-left: 0;
+    margin-top: 10px;
+    height: 7vh;
+  }
+
+  .cadas {
+    width: 27vw;
+  }
+}

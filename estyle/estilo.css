@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #ccc;
+}
+.logoCar {
+  max-width: 1350px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logoCar img {
+  padding: 15px;
+  width: 100px;
+}
+.busca {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.buscar {
+  width: 300px;
+  height: 35px;
+  border-radius: 150px;
+  background-color: #fff;
+  border: 0;
+}
+.busca input {
+  color: #999;
+  font-size: 20px;
+}
+.buscar::placeholder {
+  font-size: 20px;
+  padding: 15px;
+}
+.conteiner-body {
+  margin-top: 0px;
+  background-color: #000;
+}
+.header-body {
+  max-width: 1350px;
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  cursor: pointer;
+}
+.header-body h1 {
+  padding: 15px;
+  font-size: 20px;
+}
+.header-body h1:hover {
+  background-color: #39aee1;
+}
+.header-body #cadastro {
+  background-color: #39aee1;
+}
+.banner {
+  height: 50%;
+  width: 100%;
+  margin: auto;
+}
+.banner img {
+  width: inherit;
+  height: 50vh;
+}
+.banner h1 {
+  margin-left: 90px;
+  position: absolute;
+  color: #fff;
+  max-width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  line-height: 30px;
+}
+.body {
+  max-width: 1350px;
+  margin: auto;
+}
+.body h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+@media (max-width: 500px) {
+  .logoCar {
+    max-width: 400px;
+  }
+  .logoCar img {
+    width: 50px;
+  }
+  .buscar {
+    width: 180px;
+  }
+  .header-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner h1 {
+    margin-left: 0;
+    font-size: 13px;
+    max-width: 200px;
+  }
+}
